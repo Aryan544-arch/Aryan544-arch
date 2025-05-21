@@ -201,8 +201,34 @@ div p {
    padding: 10px; 
 }
 /*5th section*/
-.fifth{
+#heading{
+    color: #140748;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 50px;
+
+}
+
+#subheading{
+margin-left:110px ;
+}
+#subheading span{
+    color: #140748;
+    margin-left: 120px;
+    text-transform: uppercase;
+}
+#subheading p{
+    font-size: larger;
+    margin-left:110px ;
+}
+.fivthsection{
     display: grid;
     grid-template-columns: auto auto;
-
+    margin-top: 50px;
+}
+/*6th section*/
+.sixthsection{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 70px;
 }
